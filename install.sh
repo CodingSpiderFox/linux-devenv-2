@@ -1,7 +1,8 @@
 #!/bin/bash
 
-sudo apt install firefox git keepassxc zsh gedit gdebi wget libgl1-mesa-glx libegl1-mesa libxcb-xtest0 snapd python3-pip curl openjdk-8-djk openjdk-11-jdk screenfetch tmux cargo jq gnome-disk-utility
-wget https://cdn.zoom.us/prod/5.7.31792.0820/zoom_amd64.deb
+sudo apt install firefox git keepassxc zsh gedit gdebi wget libgl1-mesa-glx libegl1-mesa libxcb-xtest0 snapd python3-pip curl openjdk-8-djk openjdk-11-jdk screenfetch tmux cargo jq gnome-disk-utility software-properties-gtk 
+
+sudo add-apt-repository ppa:unit193/encryption 
 
 snap install intellij-idea-ultimate --classic
 snap install bpytop postman
