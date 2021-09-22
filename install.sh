@@ -10,9 +10,6 @@ sudo apt install -y firefox git keepassxc zsh gedit gdebi wget libgl1-mesa-glx l
 snap install intellij-idea-ultimate --classic
 snap install bpytop postman
 
-sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k
-
 curl https://get.docker.com | sudo sh
 sudo usermod -aG docker user
 
