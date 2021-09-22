@@ -170,10 +170,6 @@ source ~/powerlevel10k/powerlevel10k.zsh-theme
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-
 # Aliases
 alias branchname="git branch | sed -n -e 's/^\* \(.*\)/\1/p'"
 alias ug="sudo apt update; sudo apt upgrade -y; sudo apt autoremove -y&"
@@ -591,4 +587,7 @@ alias -s gz="tar -tf"
 alias -s {tgz,TGZ}="tar -tf"
 
 export PATH="$PATH:/home/user/.cargo/bin"
-export NPM_CONFIG_PREFIX=~/.npm-global
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
