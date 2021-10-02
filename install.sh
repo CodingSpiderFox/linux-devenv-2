@@ -1,11 +1,11 @@
 #!/bin/bash
 
 sudo apt install -y snapd software-properties-gtk
-sudo add-apt-repository ppa:unit193/encryption 
+sudo add-apt-repository ppa:unit193/encryption
 
-sudo apt install -y firefox git keepassxc zsh gedit gdebi wget libgl1-mesa-glx libegl1-mesa libxcb-xtest0 snapd python3-pip curl openjdk-8-jdk openjdk-11-jdk screenfetch tmux cargo jq gnome-disk-utility \
-  \ # for otpclient build
-  cmake libgtk-3-dev libjansson-dev libgcrypt20-dev libzip-dev libpng-dev libzbar-dev
+sudo apt install -y firefox git keepassxc zsh gedit gdebi wget libgl1-mesa-glx libegl1-mesa libxcb-xtest0 snapd python3-pip curl openjdk-8-jdk openjdk-11-jdk screenfetch tmux cargo jq gnome-disk-utility
+# for otpclient build
+sudo apt install -y  cmake libgtk-3-dev libjansson-dev libgcrypt20-dev libzip-dev libpng-dev libzbar-dev
 
 snap install intellij-idea-ultimate --classic
 snap install bpytop postman
