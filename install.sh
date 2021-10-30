@@ -49,11 +49,13 @@ sudo apt-get install -y nodejs
 mkdir ~/.npm-global
 npm config set prefix '~/.npm-global'
 
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.0/install.sh | bash
 
 npm i -g newman
-npm i -g nvm
 npm i -g nx
 npm i -g yarn
+npm i -g yo
+npm i -g generator-jhipster
 
 pip3 install docker-compose
 
