@@ -194,8 +194,8 @@ alias gnucash="export LANG=de_DE.UTF-8 && export LANGUAGE=dcompletede_DE.UTF-8 &
 alias copy='xsel -ib'
 alias paste='xsel --clipboard'
 alias install="sudo apt install -y"
-alias update="sudo apt update; sudo apt upgrade -y; sudo apt autoremove -y&"
-alias upgrade="sudo apt update; sudo apt upgrade -y; sudo apt autoremove -y&"
+alias update="sudo apt update; sudo apt upgrade -y; sudo apt autoremove -y; sudo snap refresh; sudo flatpak update&"
+alias upgrade="sudo apt update; sudo apt upgrade -y; sudo apt autoremove -y; sudo snap refresh; sudo flatpak update&"
 alias nnao="code"
 alias nnap="code"
 alias nano="code"
