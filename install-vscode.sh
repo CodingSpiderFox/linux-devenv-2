@@ -15,6 +15,7 @@ fi
 
 echo "Proxy args for vscode extension installation: $proxyArgsForVsCodeExtensions"
 
+code --install-extension ms-vscode-remote.remote-containers $proxyArgsForVsCodeExtensions --force --user-data-dir /home/user/.config/Code
 code --install-extension meganrogge.template-string-converter $proxyArgsForVsCodeExtensions --force --user-data-dir /home/user/.config/Code
 code --install-extension wix.glean $proxyArgsForVsCodeExtensions --force --user-data-dir /home/user/.config/Code
 code --install-extension wix.vscode-import-cost $proxyArgsForVsCodeExtensions --force --user-data-dir /home/user/.config/Code
