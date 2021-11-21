@@ -266,6 +266,11 @@ alias npmi="npm i"
 alias ai="sudo apt install -y "
 alias dkreg="docker run -d -p 5000:5000 --restart=always --name registry registry:2"
 alias sonar="mvn clean verify sonar:sonar -DskipTests -Dsonar.host.url=http://localhost:9000 -Dsonar.login=admin -Dsonar.password=admin"
+alias dkrmi="docker rmi"
+alias dkrmiaf="docker rmi --force \$(docker images -aq)"
+alias gpnv="git push --no-verify"
+alias gcnv="git commit -v --no-verify"
+alias npmci="npm ci"
 
 ###TPL
 alias printingshop-manager="npx nx run printing-shop-manager:serve"
