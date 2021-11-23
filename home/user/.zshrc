@@ -271,6 +271,7 @@ alias dkrmiaf="docker rmi --force \$(docker images -aq)"
 alias gpnv="git push --no-verify"
 alias gcnv="git commit -v --no-verify"
 alias npmci="npm ci"
+alias mcctc="mvn clean compile compiler:testCompile -DskipTests"
 
 ###TPL
 alias printingshop-manager="npx nx run printing-shop-manager:serve"
