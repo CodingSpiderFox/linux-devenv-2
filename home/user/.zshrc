@@ -272,6 +272,8 @@ alias gpnv="git push --no-verify"
 alias gcnv="git commit -v --no-verify"
 alias npmci="npm ci"
 alias mcctc="mvn clean compile compiler:testCompile -DskipTests"
+alias ncctc="mvn clean compile compiler:testCompile -DskipTests"
+alias npmdt="npx howfat -r tree"
 
 ###TPL
 alias printingshop-manager="npx nx run printing-shop-manager:serve"
